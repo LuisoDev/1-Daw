@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Ejercicio4 {
-    /* Enunciado: Escribe un programa que lea dos números, calcule y muestre el valor de su suma, resta, multiplicación y su división. */
+    /* Enunciado: Escribe un programa que lea dos números, calcule y muestre el valor de su suma, resta, multiplicación y su división en java. */
     public static void main(String [] args){
         Scanner entrada = new Scanner(System.in);
         System.out.println("Escriba el primer número con el que quiera operar");

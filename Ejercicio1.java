@@ -1,6 +1,6 @@
 public class Ejercicio1 {
-    /* Escriu un programa que done els “bon dia”. */
+    /* Enunciado: Escribe un programa que de los buenos días. */
     public static void main(String [] args){
-System.out.println("Bon dia");
+System.out.println("Buenos días");
     }
 }

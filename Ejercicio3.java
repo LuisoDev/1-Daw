@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Ejercicio3 {
-    /* Escriu un programa que done els “bon dia”. */
+    /* Enunciado: Escribe un programa que calcule el area de un cuadrado del que se suministrará la entrada mediante el teclado. */
     public static void main(String [] args){
         Scanner entrada = new Scanner(System.in);
         System.out.println("Escribe la medida del lado de tu cuadrado en números enteros");

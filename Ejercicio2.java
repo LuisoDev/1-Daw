@@ -1,5 +1,5 @@
 public class Ejercicio2 {
-    /* Escriu un programa que done els “bon dia”. */
+    /* Enunciado: Escribe un programa que calcule el área de un cuadrado de lado igual a 5. */
     public static void main(String [] args){
         int lado = 5;
         int area = lado*lado;

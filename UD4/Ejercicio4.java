@@ -1,3 +1,4 @@
+package UD4;
 import java.util.Scanner;
 public class Ejercicio4 {
     /* Enunciado: Escribe un programa que lea dos números, calcule y muestre el valor de su suma, resta, multiplicación y su división en java. */

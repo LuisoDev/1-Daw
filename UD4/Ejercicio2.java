@@ -1,3 +1,4 @@
+package UD4;
 public class Ejercicio2 {
     /* Enunciado: Escribe un programa que calcule el área de un cuadrado de lado igual a 5. */
     public static void main(String [] args){

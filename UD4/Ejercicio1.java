@@ -1,3 +1,4 @@
+package UD4;
 public class Ejercicio1 {
     /* Enunciado: Escribe un programa que de los buenos días. */
     public static void main(String [] args){

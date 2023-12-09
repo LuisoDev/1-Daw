@@ -1,3 +1,4 @@
+package UD4;
 import java.util.Scanner;
 public class Ejercicio3 {
     /* Enunciado: Escribe un programa que calcule el area de un cuadrado del que se suministrará la entrada mediante el teclado. */

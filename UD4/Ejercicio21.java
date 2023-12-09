@@ -50,7 +50,7 @@ public class Ejercicio21 {
             System.out.println(" Ha habido un error en la entrada de datos");}
     
             } while (!respuesta2.toLowerCase().equals("piedra") && !respuesta2.toLowerCase().equals("papel") && !respuesta2.toLowerCase().equals("tijera")); 
-
+            entrada.close();
             if (respuesta1.toLowerCase().equals("piedra") && respuesta2.toLowerCase().equals("tijera")){ 
                  System.out.println(" Victoria de " + jugador1);
                  victorias1++; }
@@ -76,6 +76,7 @@ public class Ejercicio21 {
                  if (respuesta2.toLowerCase().equals("tijera") && respuesta1.toLowerCase().equals("tijera")){ 
                   System.out.println(" EMPATE! ");} 
                 }
+                
                 if (victorias1 > victorias2){
                   System.out.println(jugador1 + "Has ganado!");
                 } if (victorias1 == victorias2) {
@@ -83,13 +84,8 @@ public class Ejercicio21 {
                 } else {
                     System.out.println(jugador2 + " Has ganado!");
                 } 
-                entrada.close();
+                
                 }
-
-
-
-
-
     }
 
 

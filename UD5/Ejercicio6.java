@@ -8,7 +8,6 @@ public class Ejercicio6 {
         int numero, i;
         boolean positivo = false;
     System.out.println("Introduce números para comprobar si alguno es positivo");
- 
     for (i=1; i <= 10; i++) {
         do {
              numero = entrada.nextInt();
@@ -23,7 +22,7 @@ public class Ejercicio6 {
         else {
         }
     }
-     entrada.close();
+    entrada.close();
     if (positivo==true){
         System.out.println("Se ha detectado un número positivo");
     }
